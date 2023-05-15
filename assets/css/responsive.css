@@ -39,9 +39,6 @@
     .about .about-content .content-left p{
         font-size: 14px;
     }
-    section{
-        padding: 10rem 3% 2rem;
-    }
     .services{
         padding-bottom: 7rem;
     }
@@ -155,6 +152,19 @@
     .footer-info .container .row .footer-col{
         width: 100%;
     }
+    .footer-col{
+        margin-bottom: 0 !important;
+    }
+    .footer-info .container .row .footer-col ul li:not(:last-child){
+        margin-bottom: 2px;
+    }
+    .footer-col ul li a{
+        font-size: 12px;
+    }
+    .footer-col h4{
+        margin-bottom: 20px !important;
+        font-size: 14px !important;
+    }
 }
 @media (max-width: 450px){
     html{
@@ -165,7 +175,19 @@
     }
     .about{
         min-height: 75vh;
-        padding: 0 1.6rem;
+        padding: 3rem 1.6rem;
+    }
+    #products{
+        padding-bottom: 0rem;
+    }
+    .footer-info .container .row .footer-col ul li:not(:last-child){
+        margin-bottom: 2px;
+    }
+    .contact{
+        padding-bottom: 1rem;
+    }
+    .contact form{
+        margin-bottom: 0;
     }
 }
 @media (max-width: 365px){
